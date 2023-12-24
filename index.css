@@ -1,0 +1,109 @@
+/* Reset some default styles for a cleaner look */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+/* Style the main container with round edges */
+#main {
+    padding-top: 40px;
+    width: 90%;
+    min-height: 70vh;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the content container */
+#content {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Style the language switch */
+#langswitch {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the input fields with round edges */
+.container input,
+.container select,
+.container textarea {
+    width: calc(100% - 20px);
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-weight: 900; /* Inter Bold (900) font weight */
+}
+
+/* Style the button with round edges */
+.generate-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #0074e4;
+    color: #fff;
+    padding: 12px 20px;
+    font-weight: 900; /* Inter Bold (900) font weight */
+}
+
+.generate-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the icon button with round edges */
+.icon-button {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #0074e4;
+    border: none;
+}
+
+/* Style the error message with round edges */
+#error {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ff4d4d;
+    background-color: #ff6666;
+    display: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#error.show {
+    display: block;
+}
+
+/* Style the footer with round edges */
+#footer {
+    margin-top: 20px;
+    padding: 1em;
+    background-color: #0074e4;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* Add some spacing between elements */
+.container {
+    margin-bottom: 20px;
+}
