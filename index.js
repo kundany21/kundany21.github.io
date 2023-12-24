@@ -16,7 +16,7 @@ document.querySelectorAll('[langkey]').forEach(element => {
     element.innerText = texts[language][element.getAttribute('langkey')];
 });
 
-const base = /*'http://localhost:8080'*/ 'http://160.251.9.161:8080';
+const base = 'https://160.251.9.161:8080';
 const origin = window.location.origin;
 
 const display_name = document.getElementById('display_name');
